@@ -1,10 +1,15 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+button{
+  border-radius: 8px;
+  background-color: #7d90ff;
 }
 
 @media (prefers-reduced-motion: no-preference) {
