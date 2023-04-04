@@ -1,4 +1,5 @@
 .container {
+  height: 75vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,14 +14,22 @@
   
   input {
     height: 40px;
-    border-color: #ccc;
-    border-width: 1px;
+    border: none;
+    transition: all 0.5s ease;
     border-radius: 5px;
     margin-bottom: 20px;
-    padding: 10px;
+    padding-left: 10px;
     width: 100%;
     max-width: 400px;
+    color: #6b67dd;
+    font-size: 1.2rem;
   }
+
+  input:active{
+    border: 1px solid #0062cc;
+    
+  }
+  
   
   .error {
     color: red;
